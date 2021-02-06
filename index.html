@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css" type="text/css">
+  <title>Sweet Surrender</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+       <h2 class="logo">Worship</h2>
+      
+         <h2 class="toggle"></h2>
+        </header>
+
+           <video src="worship.mp4" muted loop autoplay></video>  
+
+            <div class="overlay"></div>
+            
+            <div class="text">
+              <h2>Never Stop</h2>
+              <h3>Thanking The Owner</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione?</p>
+              <a href="#">View More</a>
+            </div>
+
+            <ul class="social">
+              <li><a href=""><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
+              <li><a href=""></a><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"></a></li>
+              <li><a href=""></a><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="instagram"></a></li>
+            </ul>
+
+
+  </section>
+  
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
